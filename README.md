@@ -229,13 +229,13 @@ Com separação clara de responsabilidades para facilitar:
 
 # Equipe
 
-| Nome |
-|---|
-| Pietro Vitor Pezzente | RM557283
-| Eric Darakjian | RM557082
-| Luciano Henrique Meriato Júnior | RM554546
-| Kauã Soares Guimarães | 559044
-| Enzo Mikael Sanches | 558887
+| Nome | RM |
+|---|---|
+| Pietro Vitor Pezzente | 557283 |
+| Eric Darakjian | 557082 |
+| Luciano Henrique Meriato Júnior | 554546 |
+| Kauã Soares Guimarães | 559044 |
+| Enzo Mikael Sanches | 558887 |
 
 ---
 
