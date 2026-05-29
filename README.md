@@ -231,17 +231,11 @@ Com separação clara de responsabilidades para facilitar:
 
 | Nome |
 |---|
-| Pietro Vitor Pezzente |
-| Eric Darakjian |
-| Luciano Henrique Meriato Júnior |
-| Kauã Soares Guimarães |
-| Enzo Mikael Sanches |
-
----
-
-# Licença
-
-Este projeto foi desenvolvido para fins acadêmicos e educacionais.
+| Pietro Vitor Pezzente | RM557283
+| Eric Darakjian | RM557082
+| Luciano Henrique Meriato Júnior | RM554546
+| Kauã Soares Guimarães | 559044
+| Enzo Mikael Sanches | 558887
 
 ---
 
