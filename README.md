@@ -87,7 +87,7 @@ GET /focos
 ```json
 [
   {
-    "pais": "Brazil",
+    "pais": "Brasil",
     "latitude": -10.12,
     "longitude": -54.21,
     "temperatura": 34.2,
@@ -107,7 +107,7 @@ GET /focos/{pais}
 ### Exemplo
 
 ```http
-GET /focos/Brazil
+GET /focos/Brasil
 ```
 
 ---
@@ -213,17 +213,6 @@ Com separação clara de responsabilidades para facilitar:
 - escalabilidade
 - testes
 - organização
-
----
-
-# Possíveis Melhorias Futuras
-
-- Mapa interativo em tempo real
-- Sistema de previsão com IA
-- Aplicativo mobile
-- Sistema de alertas automáticos
-- Deploy em nuvem
-- Dashboard analítico
 
 ---
 
