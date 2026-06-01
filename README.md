@@ -216,15 +216,41 @@ Com separação clara de responsabilidades para facilitar:
 
 ---
 
-# Equipe
+# Diagrama de Fluxo
 
-| Nome | RM |
-|---|---|
-| Pietro Vitor Pezzente | 557283 |
-| Eric Darakjian | 557082 |
-| Luciano Henrique Meriato Júnior | 554546 |
-| Kauã Soares Guimarães | 559044 |
-| Enzo Mikael Sanches | 558887 |
+```mermaid
+flowchart TD
+    A[NASA FIRMS] --> B[Coleta de Dados]
+    B --> C[OrbitGuard Service]
+    C --> D[OpenWeather API]
+    D --> E[Análise Climática]
+    E --> F[Cálculo do Nível de Risco]
+    F --> G[(PostgreSQL)]
+    G --> H[API REST]
+    H --> I[Swagger]
+    H --> J[Consumidor da API]
+```
+
+O fluxo da aplicação inicia com a coleta de dados de focos de incêndio disponibilizados pela NASA FIRMS. Em seguida, o sistema consulta a OpenWeather para obter informações meteorológicas da região afetada. Os dados são processados para análise climática e classificação do nível de risco, sendo posteriormente armazenados no PostgreSQL. As informações ficam disponíveis por meio dos endpoints REST documentados pelo Swagger.
+
+---
+
+# Resultados Obtidos
+
+A aplicação foi capaz de:
+
+* Consumir dados de focos de incêndio em tempo real utilizando a API NASA FIRMS;
+* Integrar informações meteorológicas por meio da OpenWeather API;
+* Persistir os dados processados em banco PostgreSQL;
+* Disponibilizar consultas através de endpoints REST documentados com Swagger;
+* Realizar tratamento global de exceções para garantir maior confiabilidade da aplicação;
+* Classificar e organizar os focos de incêndio para facilitar análises futuras.
+
+A solução demonstra a integração entre múltiplos serviços externos, persistência de dados e disponibilização de informações por meio de uma arquitetura em camadas utilizando Java e Spring Boot.
+
+```
+```
+
 
 ---
 
@@ -241,4 +267,16 @@ Com separação clara de responsabilidades para facilitar:
 
 ## Persistência no Banco
 <img width="1919" height="905" alt="image" src="https://github.com/user-attachments/assets/fd92b719-33e8-4187-b333-0807e14da396" />
+
+# Equipe
+
+| Nome | RM |
+|---|---|
+| Pietro Vitor Pezzente | 557283 |
+| Eric Darakjian | 557082 |
+| Luciano Henrique Meriato Júnior | 554546 |
+| Kauã Soares Guimarães | 559044 |
+| Enzo Mikael Sanches | 558887 |
+
+---
 
