@@ -242,13 +242,3 @@ Com separação clara de responsabilidades para facilitar:
 ## Persistência no Banco
 <img width="1919" height="905" alt="image" src="https://github.com/user-attachments/assets/fd92b719-33e8-4187-b333-0807e14da396" />
 
-
-
-
-
-
----
-
-<div align="center">
-
-### OrbitGuard — Tecnologia aplic
