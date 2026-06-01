@@ -248,8 +248,7 @@ A aplicação foi capaz de:
 
 A solução demonstra a integração entre múltiplos serviços externos, persistência de dados e disponibilização de informações por meio de uma arquitetura em camadas utilizando Java e Spring Boot.
 
-```
-```
+
 
 
 ---
