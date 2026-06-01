@@ -228,6 +228,27 @@ Com separação clara de responsabilidades para facilitar:
 
 ---
 
+# Evidências de execução
+
+## Listagem de Focos
+<img width="447" height="1019" alt="image" src="https://github.com/user-attachments/assets/81b5d88b-9f29-4c0a-b5c4-afa22192ad38" />
+
+## Tratamento de Exceções
+<img width="564" height="1020" alt="image" src="https://github.com/user-attachments/assets/8208cfa2-0039-4f78-a71d-b4eebf94a118" />
+
+## Busca por País
+<img width="487" height="1018" alt="image" src="https://github.com/user-attachments/assets/90ca628d-40ac-4f28-b4a4-0dfece48126a" />
+
+## Persistência no Banco
+<img width="1919" height="905" alt="image" src="https://github.com/user-attachments/assets/fd92b719-33e8-4187-b333-0807e14da396" />
+
+
+
+
+
+
+---
+
 <div align="center">
 
 ### OrbitGuard — Tecnologia aplic
