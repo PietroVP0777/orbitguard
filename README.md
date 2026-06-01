@@ -46,7 +46,7 @@ A proposta do projeto é oferecer uma solução moderna para:
 
 ---
 
-# 📂 Estrutura do Projeto
+# Estrutura do Projeto
 
 ```bash
 src/main/java/br/com/GS/OrbitGuard
